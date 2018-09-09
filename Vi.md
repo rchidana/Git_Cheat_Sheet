@@ -4,8 +4,6 @@
 
 When ever the mandatory message is not supplied to any Git command, by default Git Opens up the Vi Editor Screen as follows:
 
-```sh
-$ mkdir FirstRepo
-$ cd FirstRepo
-$ git init   #This will create the magical .git folder in this directory
-```
+![](images/Vi.png?raw=true)
+
+Vi has 2 modes, Edit mode and command mode and to type in a message in the Vi Screen, get in to Edit Mode by typing in : ESC Key followed by i (Insert mode) and type in the required commit message. Once you have completed keying in required message, save the changes & get out of Vi editor by typing in : ESC Key followed by wq!
