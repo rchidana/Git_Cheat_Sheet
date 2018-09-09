@@ -22,8 +22,20 @@ Settings -> SSH and GPG Keys and Click on 'New SSH Key'
 
 ![](images/SSH-KEYS.png?raw=true)
 
->Please remove any empty spaces/blank lines if any, post the email ID (last character in your SSH Key)
+>Please remove empty spaces/blank lines if any, post the email ID (last character in your SSH Key)
 
+Before begining any Git Operations from the Client, you would need to configure the Username & Email ID of the Developer who is performing Git Operations. Open up the Git Bash command and type in your Username & Email ID:
 
+```sh
+$ git config --global user.name "John Doe"  #Double Quote required
+$ git config --global user.email johndoe@example.com     #No double quote for email ID
+#Check if the settings got picked up correctly
+$ git config --list
+```
+>If your details (username & email ID) are not picked up correctly, do not fret, check if the commands were entered correctly and repeat them any number of times till you get it correctly
 
+Finally check if you can successfully connect to GitHub Server using your SSH Keys & passphrase:
 
+```sh
+$ ssh -T git@github.com #Type in your passphrase when prompted
+```
