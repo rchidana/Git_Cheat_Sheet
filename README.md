@@ -39,3 +39,13 @@ Finally check if you can successfully connect to GitHub Server using your SSH Ke
 ```sh
 $ ssh -T git@github.com #Type in your passphrase when prompted
 ```
+
+If all goes well, you now have successfully configured your Git Bash to work with your GitHub Account.
+
+| Topics | Link |
+| ------ | ------ |
+| Git 101 Commands | Git101.md |
+
+
+
+
