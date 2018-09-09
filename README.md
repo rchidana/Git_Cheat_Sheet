@@ -42,11 +42,9 @@ $ ssh -T git@github.com #Type in your passphrase when prompted
 
 If all goes well, you now have successfully configured your Git Bash to work with your GitHub Account.
 
-| Topics | Link |
-| ------ | ------ |
-| Git 101 Commands | [Git101.md][PlDb]|
-| Dropbox | [README.md][PlDb] |
+## More Reading
 
+* [Git 101 Commands](Git101.md) 
 
 
 
