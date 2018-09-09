@@ -44,7 +44,7 @@ If all goes well, you now have successfully configured your Git Bash to work wit
 
 | Topics | Link |
 | ------ | ------ |
-| Git 101 Commands | Git101.md |
+| Git 101 Commands | [Git101.md][PlDb]|
 
 
 
