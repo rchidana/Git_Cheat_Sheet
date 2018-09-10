@@ -45,5 +45,5 @@ If all goes well, you now have successfully configured your Git Bash to work wit
 ## More Reading
 
 * [Git 101 Commands](Git101.md) 
-* [Git Commands Reference](GitCommmands.md) 
+* [Git Commands Reference](GitCommands.md) 
 * [Vi Editor](Vi.md) 
