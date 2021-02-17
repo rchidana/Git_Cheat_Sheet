@@ -1,5 +1,7 @@
 # GitHub Cheat Sheet
 
+### Made some changes
+
 ### List of basic Git Commands that are useful for any Developer
 
 The most popular ways to Authenticate with any Git Server is :
