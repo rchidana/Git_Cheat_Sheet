@@ -1,9 +1,12 @@
 [diff]
-	tool = diffmerge
+    tool = diffmerge
 [difftool "diffmerge"]
-	cmd = E:/DiffMerge/sgdm.exe $LOCAL $REMOTE
+    cmd = C:/Program\\ Files/SourceGear/Common/DiffMerge/sgdm.exe \"$LOCAL\" \"$REMOTE\"
+
 [merge]
-	tool = diffmerge
+    tool = diffmerge
 [mergetool "diffmerge"]
-	trustExitCode = true
-	cmd = E:/DiffMerge/sgdm.exe -merge -result=$MERGED $LOCAL $BASE $REMOTE
+    trustExitCode = true
+    cmd = C:/Program\\ Files/SourceGear/Common/DiffMerge/sgdm.exe -merge -result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+[mergetool]
+    keepBackup = false
