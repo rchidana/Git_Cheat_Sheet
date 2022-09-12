@@ -11,7 +11,7 @@ The most popular ways to Authenticate with any Git Server is :
 ### Generate SSH Keys on the client using Git Bash
 
 ```sh
-$ ssh-keygen -t rsa -C YOUR_REGISTERED_EMAIL_ID
+ssh-keygen -t rsa -C YOUR_REGISTERED_EMAIL_ID
 ```
 By default, the SSH Keys get stored in USER_HOME_DIR\\.ssh folder
 
