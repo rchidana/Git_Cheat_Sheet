@@ -1,0 +1,7 @@
+Job Without Stage:
+    image: alpine
+    before_script:
+      - TXT_RED="\e[31m" && TXT_CLEAR="\e[0m"
+    script:
+      - echo -e "${TXT_RED}This text is red,${TXT_CLEAR} but this part isn't${TXT_RED} however this part is again."
+      - echo "This text is not colored"
